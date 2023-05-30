@@ -39,7 +39,7 @@ const SavedShows = () => {
 
   return (
     <div>
-        <h2 className="text-white font-bold md:text-xl p-4">My Shows</h2>
+        <h2 className="text-white font-bold md:text-xl p-4">Watchlist</h2>
         <div className="relative flex items-center group">
             <MdChevronLeft size={40} onClick={slideLeft} 
             className="bg-white left-0 rounded-full absolute opacity-50 hover:opacity-100 cursor-pointer z-10 hidden group-hover:block" />
